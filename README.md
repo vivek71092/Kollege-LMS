@@ -274,16 +274,19 @@ Access the live demo at [https://kollege.ct.ws/](https://kollege.ct.ws/) using t
 
 ## 📸 Screenshots
 
+### Homepage
+![Homepage](https://github.com/vivek71092/Kollege-LMS/blob/main/Snapshots/HomePage.png?raw=true)
+
 ### Student Dashboard
-![Student Dashboard](public/images/screenshots/student-dashboard.png)
+![Student Dashboard](https://github.com/vivek71092/Kollege-LMS/blob/main/Snapshots/StudentDashboard.png?raw=true)
 *Personalized dashboard showing courses, assignments, and attendance*
 
 ### Teacher Interface
-![Teacher Dashboard](public/images/screenshots/teacher-dashboard.png)
+![Teacher Dashboard](https://github.com/vivek71092/Kollege-LMS/blob/main/Snapshots/TeacherDashboard.png?raw=true)
 *Course management and grading interface*
 
 ### Admin Panel
-![Admin Panel](public/images/screenshots/admin-dashboard.png)
+![Admin Dashboard](https://github.com/vivek71092/Kollege-LMS/blob/main/Snapshots/AdminDashboard.png?raw=true)
 *Complete system administration and analytics*
 
 ---
