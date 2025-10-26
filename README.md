@@ -15,9 +15,7 @@
 **Project Title**: Kollege LMS - Learning Management System  
 **Developer**: Vivek Kumar  
 **Program**: Bachelor of Computer Applications (BCA) - 6th Semester  
-**University**: Chandigarh University  
-**Course**: Major Project (5th Subject)  
-**Academic Year**: 2024-2025
+**University**: Chandigarh University
 
 ---
 
