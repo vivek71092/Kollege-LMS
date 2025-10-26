@@ -1,0 +1,241 @@
+/* /public/css/style.css */
+
+/*
+ * Kollege LMS - Main Stylesheet
+ * --------------------------------
+ * This file contains the primary styles for the public-facing website.
+ * It defines global variables, typography, navigation, footers,
+ * and default component styles.
+ */
+
+/* === ROOT VARIABLES === */
+:root {
+    --primary-color: #0d6efd; /* Bootstrap primary */
+    --secondary-color: #6c757d; /* Bootstrap secondary */
+    --success-color: #198754; /* Bootstrap success */
+    --danger-color: #dc3545; /* Bootstrap danger */
+    --warning-color: #ffc107; /* Bootstrap warning */
+    --info-color: #0dcaf0; /* Bootstrap info */
+
+    --light-color: #f8f9fa;
+    --dark-color: #212529;
+
+    --body-font: 'Roboto', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+    --heading-font: 'Montserrat', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+
+    --navbar-height: 70px;
+    --border-radius: 0.375rem; /* Bootstrap's default */
+}
+
+/* === GLOBAL & TYPOGRAPHY === */
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: var(--body-font);
+    color: var(--dark-color); /* Default text color */
+    background-color: #ffffff;
+    line-height: 1.6;
+    padding-top: var(--navbar-height); /* Offset for fixed navbar */
+}
+
+main {
+    flex-grow: 1; /* Allows main content to fill space */
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    font-weight: 700;
+    margin-bottom: 0.75rem;
+}
+
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+a:hover {
+    color: #0a58ca; /* Darker primary */
+    text-decoration: underline;
+}
+
+.container, .container-fluid {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* === NAVIGATION BAR (Public) === */
+.navbar {
+    min-height: var(--navbar-height); /* Use min-height for flexibility */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.navbar-brand {
+    font-family: var(--heading-font);
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.navbar .nav-link {
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link.active {
+    color: var(--primary-color);
+}
+
+/* === HERO SECTION === */
+.hero-section {
+    background-color: var(--primary-color);
+    color: #ffffff;
+    padding: 6rem 1rem;
+    text-align: center;
+}
+
+.hero-section .display-4 {
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.hero-section .lead {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+}
+
+/* === SECTION STYLING === */
+.welcome-section,
+.featured-courses-section {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.bg-light {
+    background-color: var(--light-color) !important;
+}
+
+/* === CARD STYLING (for courses) === */
+.card {
+    border: none;
+    border-radius: var(--border-radius);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.12);
+}
+
+.card-title {
+    font-weight: 600;
+    color: var(--primary-color);
+}
+.card-body.d-flex { /* Helper for aligning button at bottom of card */
+    display: flex;
+    flex-direction: column;
+}
+.card-body .mt-auto { /* Helper for aligning button at bottom of card */
+    margin-top: auto;
+}
+
+
+/* === BUTTON STYLING === */
+.btn {
+    border-radius: var(--border-radius);
+    padding: 0.6rem 1.2rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    transition: all 0.3s ease;
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.btn-primary:hover {
+    background-color: #0a58ca;
+    border-color: #0a58ca;
+}
+
+/* === FOOTER (Corrected Colors - Revision 4 - More Specificity) === */
+.footer {
+    background-color: var(--dark-color); /* Dark background: #212529 */
+    color: rgba(255, 255, 255, 0.7);    /* Default LIGHT GREY text */
+    padding: 2.5rem 0;
+    margin-top: auto;                   /* Pushes footer down */
+    flex-shrink: 0;
+}
+
+/* --- Ensure ALL text elements directly or nested get the light color --- */
+.footer, /* Set base color */
+.footer p,
+.footer div,
+.footer address,
+.footer span,
+.footer li { /* Target list items too */
+    color: rgba(255, 255, 255, 0.7) !important; /* Force light grey text */
+}
+
+.footer h5 {
+    color: #ffffff !important;         /* Force WHITE headings */
+    margin-bottom: 1rem;
+}
+
+/* --- List Styles --- */
+.footer .list-unstyled {
+    padding-left: 0;
+}
+
+.footer .list-unstyled li {
+    margin-bottom: 0.5rem;
+}
+
+/* --- Link Styles (More Specific & Forceful) --- */
+/* Target ALL links within the footer */
+.footer a,
+.footer a:link,
+.footer a:visited {
+    color: rgba(255, 255, 255, 0.75) !important; /* Force light grey links */
+    text-decoration: none !important;           /* Force no underline initially */
+    transition: color 0.2s ease;
+}
+
+.footer a:hover,
+.footer a:active {
+    color: #ffffff !important;                     /* Force white links on hover/active */
+    text-decoration: underline !important;         /* Add underline on hover */
+}
+
+/* --- Footer Bottom Specific Rule --- */
+.footer-bottom {
+    border-top: 1px solid #495057;      /* Bootstrap gray-700 border */
+    padding-top: 1.5rem;
+    margin-top: 1.5rem;
+    text-align: center;
+    font-size: 0.9rem;
+    /* Explicitly set color */
+    color: rgba(255, 255, 255, 0.5) !important; /* Force dimmer text */
+}
+/* Ensure links in footer-bottom inherit or get correct color */
+.footer-bottom a,
+.footer-bottom a:link,
+.footer-bottom a:visited {
+     color: rgba(255, 255, 255, 0.5) !important;
+}
+.footer-bottom a:hover,
+.footer-bottom a:active {
+     color: rgba(255, 255, 255, 0.75) !important;
+     text-decoration: underline !important;
+}
+/* --- END FOOTER --- */
+
+/* Add any other global styles below */

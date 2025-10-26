@@ -1,0 +1,142 @@
+/* /public/css/responsive.css */
+
+/*
+ * Kollege LMS - Responsive Stylesheet
+ * -----------------------------------
+ * This file contains all media queries for adjusting the layout
+ * on different screen sizes (tablets, mobiles).
+ * It should be loaded *after* style.css.
+ */
+
+/* === TABLETS (Large - 992px and down) === */
+@media (max-width: 991.98px) {
+    /* Adjust navbar padding for collapsed menu */
+    .navbar {
+        height: auto;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    /* Ensure body padding isn't affected by fixed-top 
+       when navbar height is auto */
+    body {
+        padding-top: 0; 
+    }
+    
+    /* Re-add padding if navbar is *still* fixed-top */
+    body.fixed-nav {
+        padding-top: 70px; /* A fallback fixed height */
+    }
+
+    .navbar-nav {
+        margin-top: 1rem;
+        text-align: center;
+    }
+
+    .navbar .nav-link {
+        padding: 0.75rem 1rem;
+    }
+
+    .hero-section {
+        padding: 4rem 1rem;
+    }
+
+    .hero-section .display-4 {
+        font-size: 2.5rem;
+    }
+}
+
+/* === TABLETS (Medium - 768px and down) === */
+@media (max-width: 767.98px) {
+    .hero-section .display-4 {
+        font-size: 2.2rem;
+    }
+
+    .hero-section .lead {
+        font-size: 1.1rem;
+    }
+
+    .welcome-section .text-center {
+        margin-top: 2rem;
+    }
+
+    .featured-courses-section .col-md-4 {
+        margin-bottom: 1.5rem;
+    }
+    
+    /* Stack footer columns */
+    .footer {
+        text-align: center;
+    }
+    
+    .footer .list-unstyled {
+        padding-left: 0;
+    }
+
+    /* === DASHBOARD RESPONSIVENESS === */
+    
+    /* Make sidebar take full width and become a top-bar */
+    .dashboard-sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+        padding: 15px;
+        box-shadow: none;
+    }
+    
+    .dashboard-sidebar .sidebar-sticky {
+        position: relative;
+        height: auto;
+        padding-top: 0;
+    }
+
+    .dashboard-sidebar .nav-link {
+        display: inline-block;
+        padding: 0.5rem 0.75rem;
+    }
+    
+    .dashboard-sidebar h6 {
+        display: none; /* Hide sidebar headings on mobile */
+    }
+
+    /* Main content takes full width */
+    .dashboard-main-content {
+        margin-left: 0;
+        padding: 15px;
+    }
+
+    /* Toggle sidebar visibility (for JS-based toggle) */
+    .sidebar-toggled .dashboard-sidebar {
+        display: none;
+    }
+}
+
+/* === MOBILE PHONES (Small - 576px and down) === */
+@media (max-width: 575.98px) {
+    .hero-section {
+        padding: 3rem 1rem;
+    }
+
+    .hero-section .display-4 {
+        font-size: 1.8rem;
+    }
+
+    .hero-section .lead {
+        font-size: 1rem;
+    }
+    
+    .btn-lg {
+        padding: 0.5rem 1rem;
+        font-size: 1rem;
+    }
+
+    /* Further reduce padding for main content */
+    .dashboard-main-content {
+        padding: 10px;
+    }
+    
+    /* Stack stat cards */
+    .stat-card {
+        margin-bottom: 1rem;
+    }
+}

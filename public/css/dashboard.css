@@ -1,0 +1,195 @@
+/* /public/css/dashboard.css */
+
+/*
+ * Kollege LMS - Dashboard Stylesheet
+ * ----------------------------------
+ * This file styles the common layout for all authenticated user
+ * dashboards (Student, Teacher, Admin).
+ * It defines the sidebar and main content area layout.
+ */
+
+/* === ROOT VARIABLES (Dashboard Specific) === */
+:root {
+    --sidebar-width: 260px;
+    --sidebar-bg: #2a3042; /* A dark sidebar */
+    --sidebar-text: rgba(255, 255, 255, 0.7);
+    --sidebar-text-active: #ffffff;
+    --sidebar-link-hover-bg: #32394e;
+    --sidebar-link-active-bg: var(--primary-color);
+}
+
+/* === BODY & LAYOUT === */
+body.dashboard {
+    /* Override public padding-top */
+    padding-top: 0; 
+    background-color: #f4f7fa; /* Light grey bg for content area */
+    display: flex;
+    min-height: 100vh;
+}
+
+/* === SIDEBAR === */
+.dashboard-sidebar {
+    width: var(--sidebar-width);
+    height: 100vh; /* Full height */
+    position: fixed; /* Sticky sidebar */
+    top: 0;
+    left: 0;
+    background-color: var(--sidebar-bg);
+    color: var(--sidebar-text);
+    padding: 1.5rem 0;
+    overflow-y: auto; /* Scrollable if content overflows */
+    transition: all 0.3s ease;
+    z-index: 1030; /* Above content, below modals */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Sidebar Brand/Logo */
+.sidebar-brand {
+    display: block;
+    text-align: center;
+    padding: 0 1rem 1.5rem 1rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #3c445a;
+}
+
+.sidebar-brand a {
+    color: #ffffff;
+    font-size: 1.75rem;
+    font-weight: 700;
+    text-decoration: none;
+    font-family: var(--heading-font);
+}
+
+/* Sidebar Navigation */
+.sidebar-nav {
+    padding-left: 0;
+    list-style: none;
+    margin-bottom: 0;
+}
+
+.sidebar-nav .nav-heading {
+    padding: 0 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.4);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.sidebar-nav .nav-item {
+    margin: 2px 0;
+}
+
+.sidebar-nav .nav-link {
+    display: flex;
+    align-items: center;
+    color: var(--sidebar-text);
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+/* Icons in sidebar links (e.g., FontAwesome) */
+.sidebar-nav .nav-link i {
+    font-size: 1.1rem;
+    margin-right: 1rem;
+    width: 20px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    transition: all 0.3s ease;
+}
+
+.sidebar-nav .nav-link:hover {
+    background-color: var(--sidebar-link-hover-bg);
+    color: var(--sidebar-text-active);
+}
+
+.sidebar-nav .nav-link:hover i {
+    color: var(--sidebar-text-active);
+}
+
+.sidebar-nav .nav-link.active,
+.sidebar-nav .nav-link.active:hover {
+    background-color: var(--sidebar-link-active-bg);
+    color: var(--sidebar-text-active);
+}
+
+.sidebar-nav .nav-link.active i {
+    color: var(--sidebar-text-active);
+}
+
+/* === MAIN CONTENT AREA === */
+.dashboard-main-content {
+    margin-left: var(--sidebar-width); /* Offset by sidebar width */
+    width: calc(100% - var(--sidebar-width));
+    padding: 2rem;
+    flex-grow: 1;
+    transition: all 0.3s ease;
+}
+
+/* Content Header / Breadcrumbs */
+.breadcrumb-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.breadcrumb-header h1 {
+    margin-bottom: 0;
+    font-size: 1.8rem;
+}
+
+/* Breadcrumb styling */
+.breadcrumb {
+    margin-bottom: 0;
+    background-color: transparent;
+    padding: 0;
+}
+
+/* === DASHBOARD WIDGETS/CARDS === */
+.stat-card {
+    /* Assumes Bootstrap .card */
+    border: none;
+    border-left: 5px solid var(--primary-color);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.stat-card .card-body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.stat-card-info h5 {
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: var(--secondary-color);
+    margin-bottom: 0.25rem;
+}
+
+.stat-card-info .stat-number {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--dark-color);
+}
+
+.stat-card-icon i {
+    font-size: 3rem;
+    color: var(--primary-color);
+    opacity: 0.3;
+}
+
+/* Card color variants */
+.stat-card.border-success { border-color: var(--success-color); }
+.stat-card.border-success .stat-card-icon i { color: var(--success-color); }
+
+.stat-card.border-warning { border-color: var(--warning-color); }
+.stat-card.border-warning .stat-card-icon i { color: var(--warning-color); }
+
+.stat-card.border-danger { border-color: var(--danger-color); }
+.stat-card.border-danger .stat-card-icon i { color: var(--danger-color); }

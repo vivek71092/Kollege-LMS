@@ -1,0 +1,90 @@
+/* /public/css/admin.css */
+
+/*
+ * Kollege LMS - Admin Dashboard Stylesheet
+ * ----------------------------------------
+ * This file contains styles specific to the Admin panel.
+ * It overrides or extends styles from dashboard.css.
+ * It should be loaded *after* dashboard.css.
+ */
+
+/* === ADMIN-SPECIFIC STYLES === */
+
+/* Example: Change the sidebar active color for Admin */
+.admin-dashboard .dashboard-sidebar {
+    --sidebar-bg: #1c1f2a; /* Slightly darker admin bg */
+    --sidebar-link-active-bg: var(--danger-color); /* Red active link for admin */
+}
+
+/* Example: Change the admin header */
+.admin-dashboard .breadcrumb-header h1 {
+    color: var(--danger-color);
+}
+
+/* === DATA TABLE STYLING === */
+/* Styling for DataTables.js integration */
+/* Assumes a table with class .data-table */
+.data-table {
+    width: 100% !important;
+}
+
+/* DataTables header */
+.dataTables_wrapper .dataTables_length,
+.dataTables_wrapper .dataTables_filter {
+    margin-bottom: 1rem;
+}
+
+.dataTables_wrapper .dataTables_filter input {
+    margin-left: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: var(--border-radius);
+    padding: 0.375rem 0.75rem;
+}
+
+/* DataTables pagination */
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+    padding: 0.3em 0.8em;
+    margin: 0 2px;
+    border-radius: var(--border-radius);
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current {
+    background: var(--primary-color) !important;
+    color: #fff !important;
+    border: 1px solid var(--primary-color) !important;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+    background: #eee !important;
+    border-color: #ddd !important;
+}
+
+/* Table styling (Bootstrap overrides) */
+.table th {
+    font-weight: 600;
+    font-family: var(--heading-font);
+    color: #444;
+}
+
+.table .actions-cell a {
+    margin: 0 4px;
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+
+.table .actions-cell .text-info:hover { color: var(--primary-color) !important; }
+.table .actions-cell .text-danger:hover { color: #a91523 !important; }
+
+
+/* === ADMIN WIDGETS === */
+/* Example: User management card */
+.user-management-card {
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: var(--border-radius);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.user-management-card .form-group {
+    margin-bottom: 1rem;
+}

@@ -1,0 +1,250 @@
+[2025-10-25 10:12:52] | Uncaught Exception: is_dir(): open_basedir restriction in effect. File(/home/vol11_7/infinityfree.com/if0_40212246/htdocs/dashboard/admin/settings/../../../../backups/) is not within the allowed path(s): (/php_sessions:/tmp:..:/var/www/errors:/home/vol11_7/infinityfree.com/if0_40212246/htdocs) | File: /home/vol11_7/infinityfree.com/if0_40212246/htdocs/dashboard/admin/settings/backup.php | Line: 96
+[2025-10-25 10:12:55] | Uncaught Exception: is_dir(): open_basedir restriction in effect. File(/home/vol11_7/infinityfree.com/if0_40212246/htdocs/dashboard/admin/settings/../../../../backups/) is not within the allowed path(s): (/php_sessions:/tmp:..:/var/www/errors:/home/vol11_7/infinityfree.com/if0_40212246/htdocs) | File: /home/vol11_7/infinityfree.com/if0_40212246/htdocs/dashboard/admin/settings/backup.php | Line: 96
+[2025-10-25 10:14:34] | Uncaught Exception: is_dir(): open_basedir restriction in effect. File(/home/vol11_7/infinityfree.com/if0_40212246/htdocs/dashboard/admin/settings/../../../../backups/) is not within the allowed path(s): (/php_sessions:/tmp:..:/var/www/errors:/home/vol11_7/infinityfree.com/if0_40212246/htdocs) | File: /home/vol11_7/infinityfree.com/if0_40212246/htdocs/dashboard/admin/settings/backup.php | Line: 32
+[2025-10-25 10:14:37] | Uncaught Exception: is_dir(): open_basedir restriction in effect. File(/home/vol11_7/infinityfree.com/if0_40212246/htdocs/dashboard/admin/settings/../../../../backups/) is not within the allowed path(s): (/php_sessions:/tmp:..:/var/www/errors:/home/vol11_7/infinityfree.com/if0_40212246/htdocs) | File: /home/vol11_7/infinityfree.com/if0_40212246/htdocs/dashboard/admin/settings/backup.php | Line: 32
+[2025-10-25 10:14:38] | Uncaught Exception: is_dir(): open_basedir restriction in effect. File(/home/vol11_7/infinityfree.com/if0_40212246/htdocs/dashboard/admin/settings/../../../../backups/) is not within the allowed path(s): (/php_sessions:/tmp:..:/var/www/errors:/home/vol11_7/infinityfree.com/if0_40212246/htdocs) | File: /home/vol11_7/infinityfree.com/if0_40212246/htdocs/dashboard/admin/settings/backup.php | Line: 32
+[2025-10-25 10:14:38] | Uncaught Exception: is_dir(): open_basedir restriction in effect. File(/home/vol11_7/infinityfree.com/if0_40212246/htdocs/dashboard/admin/settings/../../../../backups/) is not within the allowed path(s): (/php_sessions:/tmp:..:/var/www/errors:/home/vol11_7/infinityfree.com/if0_40212246/htdocs) | File: /home/vol11_7/infinityfree.com/if0_40212246/htdocs/dashboard/admin/settings/backup.php | Line: 32
+[2025-10-25 10:34:53] | Notice: htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated | File: /home/vol11_7/infinityfree.com/if0_40212246/htdocs/dashboard/teacher/manage-marks.php | Line: 132
+[2025-10-25 10:34:53] | Notice: htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated | File: /home/vol11_7/infinityfree.com/if0_40212246/htdocs/dashboard/teacher/manage-marks.php | Line: 132
+[2025-10-25 10:40:20] | Uncaught Exception: Call to undefined function truncate_text() | File: /home/vol11_7/infinityfree.com/if0_40212246/htdocs/dashboard/teacher/messages.php | Line: 43
+[2025-10-25 10:40:20] | Uncaught Exception: Uncaught ErrorException: http_response_code(): Cannot set response code - headers already sent (output started at /home/vol11_7/infinityfree.com/if0_40212246/htdocs/includes/sidebar.php:208) in /home/vol11_7/infinityfree.com/if0_40212246/htdocs/error_handler.php:85
+Stack trace:
+#0 [internal function]: custom_error_handler(2, 'http_response_c...', '/home/vol11_7/i...', 85)
+#1 /home/vol11_7/infinityfree.com/if0_40212246/htdocs/error_handler.php(85): http_response_code(500)
+#2 [internal function]: custom_exception_handler(Object(Error))
+#3 {main}
+  thrown | File: /home/vol11_7/infinityfree.com/if0_40212246/htdocs/error_handler.php | Line: 85
+[2025-10-25 11:08:49] | Uncaught Exception: Call to undefined function truncate_text() | File: /home/vol11_7/infinityfree.com/if0_40212246/htdocs/dashboard/student/dashboard.php | Line: 136
+[2025-10-25 11:08:49] | Uncaught Exception: Uncaught ErrorException: http_response_code(): Cannot set response code - headers already sent (output started at /home/vol11_7/infinityfree.com/if0_40212246/htdocs/includes/sidebar.php:212) in /home/vol11_7/infinityfree.com/if0_40212246/htdocs/error_handler.php:85
+Stack trace:
+#0 [internal function]: custom_error_handler(2, 'http_response_c...', '/home/vol11_7/i...', 85)
+#1 /home/vol11_7/infinityfree.com/if0_40212246/htdocs/error_handler.php(85): http_response_code(500)
+#2 [internal function]: custom_exception_handler(Object(Error))
+#3 {main}
+  thrown | File: /home/vol11_7/infinityfree.com/if0_40212246/htdocs/error_handler.php | Line: 85
+[2025-10-25 11:08:54] | Uncaught Exception: Call to undefined function truncate_text() | File: /home/vol11_7/infinityfree.com/if0_40212246/htdocs/dashboard/student/dashboard.php | Line: 136
+[2025-10-25 11:08:54] | Uncaught Exception: Uncaught ErrorException: http_response_code(): Cannot set response code - headers already sent (output started at /home/vol11_7/infinityfree.com/if0_40212246/htdocs/includes/sidebar.php:212) in /home/vol11_7/infinityfree.com/if0_40212246/htdocs/error_handler.php:85
+Stack trace:
+#0 [internal function]: custom_error_handler(2, 'http_response_c...', '/home/vol11_7/i...', 85)
+#1 /home/vol11_7/infinityfree.com/if0_40212246/htdocs/error_handler.php(85): http_response_code(500)
+#2 [internal function]: custom_exception_handler(Object(Error))
+#3 {main}
+  thrown | File: /home/vol11_7/infinityfree.com/if0_40212246/htdocs/error_handler.php | Line: 85
+[2025-10-25 11:15:45] | Uncaught Exception: Call to undefined function truncate_text() | File: /home/vol11_7/infinityfree.com/if0_40212246/htdocs/dashboard/student/dashboard.php | Line: 201
+[2025-10-25 11:15:45] | Uncaught Exception: Uncaught ErrorException: http_response_code(): Cannot set response code - headers already sent (output started at /home/vol11_7/infinityfree.com/if0_40212246/htdocs/includes/sidebar.php:212) in /home/vol11_7/infinityfree.com/if0_40212246/htdocs/error_handler.php:85
+Stack trace:
+#0 [internal function]: custom_error_handler(2, 'http_response_c...', '/home/vol11_7/i...', 85)
+#1 /home/vol11_7/infinityfree.com/if0_40212246/htdocs/error_handler.php(85): http_response_code(500)
+#2 [internal function]: custom_exception_handler(Object(Error))
+#3 {main}
+  thrown | File: /home/vol11_7/infinityfree.com/if0_40212246/htdocs/error_handler.php | Line: 85
+[2025-10-25 11:20:12] | Uncaught Exception: Undefined variable $user_role | File: /home/vol11_7/infinityfree.com/if0_40212246/htdocs/includes/sidebar.php | Line: 1
+[2025-10-25 11:20:14] | Uncaught Exception: Undefined variable $user_role | File: /home/vol11_7/infinityfree.com/if0_40212246/htdocs/includes/sidebar.php | Line: 1
+[2025-10-25 11:20:15] | Uncaught Exception: Undefined variable $user_role | File: /home/vol11_7/infinityfree.com/if0_40212246/htdocs/includes/sidebar.php | Line: 1
+[2025-10-25 11:20:16] | Uncaught Exception: Undefined variable $user_role | File: /home/vol11_7/infinityfree.com/if0_40212246/htdocs/includes/sidebar.php | Line: 1
+[2025-10-25 11:20:26] | Uncaught Exception: Undefined variable $user_role | File: /home/vol11_7/infinityfree.com/if0_40212246/htdocs/includes/sidebar.php | Line: 1
+[2025-10-25 11:21:00] | Uncaught Exception: Undefined variable $user_role | File: /home/vol11_7/infinityfree.com/if0_40212246/htdocs/includes/sidebar.php | Line: 1
+[2025-10-25 11:23:52] | Uncaught Exception: Call to undefined function truncate_text() | File: /home/vol11_7/infinityfree.com/if0_40212246/htdocs/dashboard/student/dashboard.php | Line: 201
+[2025-10-25 11:23:52] | Uncaught Exception: Uncaught ErrorException: http_response_code(): Cannot set response code - headers already sent (output started at /home/vol11_7/infinityfree.com/if0_40212246/htdocs/includes/sidebar.php:234) in /home/vol11_7/infinityfree.com/if0_40212246/htdocs/error_handler.php:85
+Stack trace:
+#0 [internal function]: custom_error_handler(2, 'http_response_c...', '/home/vol11_7/i...', 85)
+#1 /home/vol11_7/infinityfree.com/if0_40212246/htdocs/error_handler.php(85): http_response_code(500)
+#2 [internal function]: custom_exception_handler(Object(Error))
+#3 {main}
+  thrown | File: /home/vol11_7/infinityfree.com/if0_40212246/htdocs/error_handler.php | Line: 85
+[2025-10-25 11:26:54] | Uncaught Exception: Call to undefined function truncate_text() | File: /home/vol11_7/infinityfree.com/if0_40212246/htdocs/dashboard/student/dashboard.php | Line: 201
+[2025-10-25 11:26:54] | Uncaught Exception: Uncaught ErrorException: http_response_code(): Cannot set response code - headers already sent (output started at /home/vol11_7/infinityfree.com/if0_40212246/htdocs/includes/sidebar.php:234) in /home/vol11_7/infinityfree.com/if0_40212246/htdocs/error_handler.php:85
+Stack trace:
+#0 [internal function]: custom_error_handler(2, 'http_response_c...', '/home/vol11_7/i...', 85)
+#1 /home/vol11_7/infinityfree.com/if0_40212246/htdocs/error_handler.php(85): http_response_code(500)
+#2 [internal function]: custom_exception_handler(Object(Error))
+#3 {main}
+  thrown | File: /home/vol11_7/infinityfree.com/if0_40212246/htdocs/error_handler.php | Line: 85
+[2025-10-25 11:26:55] | Uncaught Exception: Call to undefined function truncate_text() | File: /home/vol11_7/infinityfree.com/if0_40212246/htdocs/dashboard/student/dashboard.php | Line: 201
+[2025-10-25 11:26:55] | Uncaught Exception: Uncaught ErrorException: http_response_code(): Cannot set response code - headers already sent (output started at /home/vol11_7/infinityfree.com/if0_40212246/htdocs/includes/sidebar.php:234) in /home/vol11_7/infinityfree.com/if0_40212246/htdocs/error_handler.php:85
+Stack trace:
+#0 [internal function]: custom_error_handler(2, 'http_response_c...', '/home/vol11_7/i...', 85)
+#1 /home/vol11_7/infinityfree.com/if0_40212246/htdocs/error_handler.php(85): http_response_code(500)
+#2 [internal function]: custom_exception_handler(Object(Error))
+#3 {main}
+  thrown | File: /home/vol11_7/infinityfree.com/if0_40212246/htdocs/error_handler.php | Line: 85
+[2025-10-25 11:26:56] | Uncaught Exception: Call to undefined function truncate_text() | File: /home/vol11_7/infinityfree.com/if0_40212246/htdocs/dashboard/student/dashboard.php | Line: 201
+[2025-10-25 11:26:56] | Uncaught Exception: Uncaught ErrorException: http_response_code(): Cannot set response code - headers already sent (output started at /home/vol11_7/infinityfree.com/if0_40212246/htdocs/includes/sidebar.php:234) in /home/vol11_7/infinityfree.com/if0_40212246/htdocs/error_handler.php:85
+Stack trace:
+#0 [internal function]: custom_error_handler(2, 'http_response_c...', '/home/vol11_7/i...', 85)
+#1 /home/vol11_7/infinityfree.com/if0_40212246/htdocs/error_handler.php(85): http_response_code(500)
+#2 [internal function]: custom_exception_handler(Object(Error))
+#3 {main}
+  thrown | File: /home/vol11_7/infinityfree.com/if0_40212246/htdocs/error_handler.php | Line: 85
+[2025-10-25 11:26:56] | Uncaught Exception: Call to undefined function truncate_text() | File: /home/vol11_7/infinityfree.com/if0_40212246/htdocs/dashboard/student/dashboard.php | Line: 201
+[2025-10-25 11:26:56] | Uncaught Exception: Uncaught ErrorException: http_response_code(): Cannot set response code - headers already sent (output started at /home/vol11_7/infinityfree.com/if0_40212246/htdocs/includes/sidebar.php:234) in /home/vol11_7/infinityfree.com/if0_40212246/htdocs/error_handler.php:85
+Stack trace:
+#0 [internal function]: custom_error_handler(2, 'http_response_c...', '/home/vol11_7/i...', 85)
+#1 /home/vol11_7/infinityfree.com/if0_40212246/htdocs/error_handler.php(85): http_response_code(500)
+#2 [internal function]: custom_exception_handler(Object(Error))
+#3 {main}
+  thrown | File: /home/vol11_7/infinityfree.com/if0_40212246/htdocs/error_handler.php | Line: 85
+[2025-10-25 11:26:57] | Uncaught Exception: Call to undefined function truncate_text() | File: /home/vol11_7/infinityfree.com/if0_40212246/htdocs/dashboard/student/dashboard.php | Line: 201
+[2025-10-25 11:26:57] | Uncaught Exception: Uncaught ErrorException: http_response_code(): Cannot set response code - headers already sent (output started at /home/vol11_7/infinityfree.com/if0_40212246/htdocs/includes/sidebar.php:234) in /home/vol11_7/infinityfree.com/if0_40212246/htdocs/error_handler.php:85
+Stack trace:
+#0 [internal function]: custom_error_handler(2, 'http_response_c...', '/home/vol11_7/i...', 85)
+#1 /home/vol11_7/infinityfree.com/if0_40212246/htdocs/error_handler.php(85): http_response_code(500)
+#2 [internal function]: custom_exception_handler(Object(Error))
+#3 {main}
+  thrown | File: /home/vol11_7/infinityfree.com/if0_40212246/htdocs/error_handler.php | Line: 85
+[2025-10-26 10:52:41] | Uncaught Exception: Call to undefined function truncate_text() | File: /home/vol11_7/infinityfree.com/if0_40212246/htdocs/dashboard/student/dashboard.php | Line: 201
+[2025-10-26 10:52:41] | Uncaught Exception: Uncaught ErrorException: http_response_code(): Cannot set response code - headers already sent (output started at /home/vol11_7/infinityfree.com/if0_40212246/htdocs/includes/sidebar.php:234) in /home/vol11_7/infinityfree.com/if0_40212246/htdocs/error_handler.php:85
+Stack trace:
+#0 [internal function]: custom_error_handler(2, 'http_response_c...', '/home/vol11_7/i...', 85)
+#1 /home/vol11_7/infinityfree.com/if0_40212246/htdocs/error_handler.php(85): http_response_code(500)
+#2 [internal function]: custom_exception_handler(Object(Error))
+#3 {main}
+  thrown | File: /home/vol11_7/infinityfree.com/if0_40212246/htdocs/error_handler.php | Line: 85
+[2025-10-26 10:52:52] | Uncaught Exception: Call to undefined function truncate_text() | File: /home/vol11_7/infinityfree.com/if0_40212246/htdocs/dashboard/student/dashboard.php | Line: 201
+[2025-10-26 10:52:52] | Uncaught Exception: Uncaught ErrorException: http_response_code(): Cannot set response code - headers already sent (output started at /home/vol11_7/infinityfree.com/if0_40212246/htdocs/includes/sidebar.php:234) in /home/vol11_7/infinityfree.com/if0_40212246/htdocs/error_handler.php:85
+Stack trace:
+#0 [internal function]: custom_error_handler(2, 'http_response_c...', '/home/vol11_7/i...', 85)
+#1 /home/vol11_7/infinityfree.com/if0_40212246/htdocs/error_handler.php(85): http_response_code(500)
+#2 [internal function]: custom_exception_handler(Object(Error))
+#3 {main}
+  thrown | File: /home/vol11_7/infinityfree.com/if0_40212246/htdocs/error_handler.php | Line: 85
+[2025-10-26 10:55:18] | Uncaught Exception: Call to undefined function truncate_text() | File: /home/vol11_7/infinityfree.com/if0_40212246/htdocs/dashboard/student/dashboard.php | Line: 201
+[2025-10-26 10:55:18] | Uncaught Exception: Uncaught ErrorException: http_response_code(): Cannot set response code - headers already sent (output started at /home/vol11_7/infinityfree.com/if0_40212246/htdocs/includes/sidebar.php:234) in /home/vol11_7/infinityfree.com/if0_40212246/htdocs/error_handler.php:85
+Stack trace:
+#0 [internal function]: custom_error_handler(2, 'http_response_c...', '/home/vol11_7/i...', 85)
+#1 /home/vol11_7/infinityfree.com/if0_40212246/htdocs/error_handler.php(85): http_response_code(500)
+#2 [internal function]: custom_exception_handler(Object(Error))
+#3 {main}
+  thrown | File: /home/vol11_7/infinityfree.com/if0_40212246/htdocs/error_handler.php | Line: 85
+[2025-10-26 10:55:36] | Uncaught Exception: Call to undefined function truncate_text() | File: /home/vol11_7/infinityfree.com/if0_40212246/htdocs/dashboard/student/dashboard.php | Line: 201
+[2025-10-26 10:55:36] | Uncaught Exception: Uncaught ErrorException: http_response_code(): Cannot set response code - headers already sent (output started at /home/vol11_7/infinityfree.com/if0_40212246/htdocs/includes/sidebar.php:234) in /home/vol11_7/infinityfree.com/if0_40212246/htdocs/error_handler.php:85
+Stack trace:
+#0 [internal function]: custom_error_handler(2, 'http_response_c...', '/home/vol11_7/i...', 85)
+#1 /home/vol11_7/infinityfree.com/if0_40212246/htdocs/error_handler.php(85): http_response_code(500)
+#2 [internal function]: custom_exception_handler(Object(Error))
+#3 {main}
+  thrown | File: /home/vol11_7/infinityfree.com/if0_40212246/htdocs/error_handler.php | Line: 85
+[2025-10-26 10:57:03] | Error fetching students/attendance for subject ID 4, date 2025-10-26: SQLSTATE[HY093]: Invalid parameter number | File: /home/vol11_7/infinityfree.com/if0_40212246/htdocs/dashboard/teacher/mark-attendance.php | Line: 146
+[2025-10-26 10:57:07] | Error fetching students/attendance for subject ID 4, date 2025-10-26: SQLSTATE[HY093]: Invalid parameter number | File: /home/vol11_7/infinityfree.com/if0_40212246/htdocs/dashboard/teacher/mark-attendance.php | Line: 146
+[2025-10-26 10:57:13] | Error fetching students/marks for subject ID 4: SQLSTATE[HY093]: Invalid parameter number | File: /home/vol11_7/infinityfree.com/if0_40212246/htdocs/dashboard/teacher/manage-marks.php | Line: 155
+[2025-10-26 10:57:15] | Error fetching students/marks for subject ID 8: SQLSTATE[HY093]: Invalid parameter number | File: /home/vol11_7/infinityfree.com/if0_40212246/htdocs/dashboard/teacher/manage-marks.php | Line: 155
+[2025-10-26 10:58:46] | Uncaught Exception: Call to undefined function truncate_text() | File: /home/vol11_7/infinityfree.com/if0_40212246/htdocs/dashboard/student/dashboard.php | Line: 201
+[2025-10-26 10:58:46] | Uncaught Exception: Uncaught ErrorException: http_response_code(): Cannot set response code - headers already sent (output started at /home/vol11_7/infinityfree.com/if0_40212246/htdocs/includes/sidebar.php:234) in /home/vol11_7/infinityfree.com/if0_40212246/htdocs/error_handler.php:85
+Stack trace:
+#0 [internal function]: custom_error_handler(2, 'http_response_c...', '/home/vol11_7/i...', 85)
+#1 /home/vol11_7/infinityfree.com/if0_40212246/htdocs/error_handler.php(85): http_response_code(500)
+#2 [internal function]: custom_exception_handler(Object(Error))
+#3 {main}
+  thrown | File: /home/vol11_7/infinityfree.com/if0_40212246/htdocs/error_handler.php | Line: 85
+[2025-10-26 11:02:12] | Uncaught Exception: Call to undefined function truncate_text() | File: /home/vol11_7/infinityfree.com/if0_40212246/htdocs/dashboard/student/dashboard.php | Line: 201
+[2025-10-26 11:02:12] | Uncaught Exception: Uncaught ErrorException: http_response_code(): Cannot set response code - headers already sent (output started at /home/vol11_7/infinityfree.com/if0_40212246/htdocs/includes/sidebar.php:234) in /home/vol11_7/infinityfree.com/if0_40212246/htdocs/error_handler.php:85
+Stack trace:
+#0 [internal function]: custom_error_handler(2, 'http_response_c...', '/home/vol11_7/i...', 85)
+#1 /home/vol11_7/infinityfree.com/if0_40212246/htdocs/error_handler.php(85): http_response_code(500)
+#2 [internal function]: custom_exception_handler(Object(Error))
+#3 {main}
+  thrown | File: /home/vol11_7/infinityfree.com/if0_40212246/htdocs/error_handler.php | Line: 85
+[2025-10-26 11:02:17] | Uncaught Exception: Call to undefined function truncate_text() | File: /home/vol11_7/infinityfree.com/if0_40212246/htdocs/dashboard/student/dashboard.php | Line: 201
+[2025-10-26 11:02:17] | Uncaught Exception: Uncaught ErrorException: http_response_code(): Cannot set response code - headers already sent (output started at /home/vol11_7/infinityfree.com/if0_40212246/htdocs/includes/sidebar.php:234) in /home/vol11_7/infinityfree.com/if0_40212246/htdocs/error_handler.php:85
+Stack trace:
+#0 [internal function]: custom_error_handler(2, 'http_response_c...', '/home/vol11_7/i...', 85)
+#1 /home/vol11_7/infinityfree.com/if0_40212246/htdocs/error_handler.php(85): http_response_code(500)
+#2 [internal function]: custom_exception_handler(Object(Error))
+#3 {main}
+  thrown | File: /home/vol11_7/infinityfree.com/if0_40212246/htdocs/error_handler.php | Line: 85
+[2025-10-26 11:02:20] | Uncaught Exception: Call to undefined function truncate_text() | File: /home/vol11_7/infinityfree.com/if0_40212246/htdocs/dashboard/student/dashboard.php | Line: 201
+[2025-10-26 11:02:20] | Uncaught Exception: Uncaught ErrorException: http_response_code(): Cannot set response code - headers already sent (output started at /home/vol11_7/infinityfree.com/if0_40212246/htdocs/includes/sidebar.php:234) in /home/vol11_7/infinityfree.com/if0_40212246/htdocs/error_handler.php:85
+Stack trace:
+#0 [internal function]: custom_error_handler(2, 'http_response_c...', '/home/vol11_7/i...', 85)
+#1 /home/vol11_7/infinityfree.com/if0_40212246/htdocs/error_handler.php(85): http_response_code(500)
+#2 [internal function]: custom_exception_handler(Object(Error))
+#3 {main}
+  thrown | File: /home/vol11_7/infinityfree.com/if0_40212246/htdocs/error_handler.php | Line: 85
+[2025-10-26 11:02:21] | Uncaught Exception: Call to undefined function truncate_text() | File: /home/vol11_7/infinityfree.com/if0_40212246/htdocs/dashboard/student/dashboard.php | Line: 201
+[2025-10-26 11:02:21] | Uncaught Exception: Uncaught ErrorException: http_response_code(): Cannot set response code - headers already sent (output started at /home/vol11_7/infinityfree.com/if0_40212246/htdocs/includes/sidebar.php:234) in /home/vol11_7/infinityfree.com/if0_40212246/htdocs/error_handler.php:85
+Stack trace:
+#0 [internal function]: custom_error_handler(2, 'http_response_c...', '/home/vol11_7/i...', 85)
+#1 /home/vol11_7/infinityfree.com/if0_40212246/htdocs/error_handler.php(85): http_response_code(500)
+#2 [internal function]: custom_exception_handler(Object(Error))
+#3 {main}
+  thrown | File: /home/vol11_7/infinityfree.com/if0_40212246/htdocs/error_handler.php | Line: 85
+[2025-10-26 11:02:22] | Uncaught Exception: Call to undefined function truncate_text() | File: /home/vol11_7/infinityfree.com/if0_40212246/htdocs/dashboard/student/dashboard.php | Line: 201
+[2025-10-26 11:02:22] | Uncaught Exception: Uncaught ErrorException: http_response_code(): Cannot set response code - headers already sent (output started at /home/vol11_7/infinityfree.com/if0_40212246/htdocs/includes/sidebar.php:234) in /home/vol11_7/infinityfree.com/if0_40212246/htdocs/error_handler.php:85
+Stack trace:
+#0 [internal function]: custom_error_handler(2, 'http_response_c...', '/home/vol11_7/i...', 85)
+#1 /home/vol11_7/infinityfree.com/if0_40212246/htdocs/error_handler.php(85): http_response_code(500)
+#2 [internal function]: custom_exception_handler(Object(Error))
+#3 {main}
+  thrown | File: /home/vol11_7/infinityfree.com/if0_40212246/htdocs/error_handler.php | Line: 85
+[2025-10-26 11:02:24] | Uncaught Exception: Call to undefined function truncate_text() | File: /home/vol11_7/infinityfree.com/if0_40212246/htdocs/dashboard/student/dashboard.php | Line: 201
+[2025-10-26 11:02:24] | Uncaught Exception: Uncaught ErrorException: http_response_code(): Cannot set response code - headers already sent (output started at /home/vol11_7/infinityfree.com/if0_40212246/htdocs/includes/sidebar.php:234) in /home/vol11_7/infinityfree.com/if0_40212246/htdocs/error_handler.php:85
+Stack trace:
+#0 [internal function]: custom_error_handler(2, 'http_response_c...', '/home/vol11_7/i...', 85)
+#1 /home/vol11_7/infinityfree.com/if0_40212246/htdocs/error_handler.php(85): http_response_code(500)
+#2 [internal function]: custom_exception_handler(Object(Error))
+#3 {main}
+  thrown | File: /home/vol11_7/infinityfree.com/if0_40212246/htdocs/error_handler.php | Line: 85
+[2025-10-26 11:04:43] | Uncaught Exception: Call to undefined function truncate_text() | File: /home/vol11_7/infinityfree.com/if0_40212246/htdocs/dashboard/student/dashboard.php | Line: 201
+[2025-10-26 11:04:43] | Uncaught Exception: Uncaught ErrorException: http_response_code(): Cannot set response code - headers already sent (output started at /home/vol11_7/infinityfree.com/if0_40212246/htdocs/includes/sidebar.php:234) in /home/vol11_7/infinityfree.com/if0_40212246/htdocs/error_handler.php:85
+Stack trace:
+#0 [internal function]: custom_error_handler(2, 'http_response_c...', '/home/vol11_7/i...', 85)
+#1 /home/vol11_7/infinityfree.com/if0_40212246/htdocs/error_handler.php(85): http_response_code(500)
+#2 [internal function]: custom_exception_handler(Object(Error))
+#3 {main}
+  thrown | File: /home/vol11_7/infinityfree.com/if0_40212246/htdocs/error_handler.php | Line: 85
+[2025-10-26 11:08:41] | Uncaught Exception: Call to undefined function truncate_text() | File: /home/vol11_7/infinityfree.com/if0_40212246/htdocs/dashboard/student/dashboard.php | Line: 201
+[2025-10-26 11:08:41] | Uncaught Exception: Uncaught ErrorException: http_response_code(): Cannot set response code - headers already sent (output started at /home/vol11_7/infinityfree.com/if0_40212246/htdocs/includes/sidebar.php:234) in /home/vol11_7/infinityfree.com/if0_40212246/htdocs/error_handler.php:85
+Stack trace:
+#0 [internal function]: custom_error_handler(2, 'http_response_c...', '/home/vol11_7/i...', 85)
+#1 /home/vol11_7/infinityfree.com/if0_40212246/htdocs/error_handler.php(85): http_response_code(500)
+#2 [internal function]: custom_exception_handler(Object(Error))
+#3 {main}
+  thrown | File: /home/vol11_7/infinityfree.com/if0_40212246/htdocs/error_handler.php | Line: 85
+[2025-10-26 11:08:43] | Uncaught Exception: Call to undefined function truncate_text() | File: /home/vol11_7/infinityfree.com/if0_40212246/htdocs/dashboard/student/dashboard.php | Line: 201
+[2025-10-26 11:08:43] | Uncaught Exception: Uncaught ErrorException: http_response_code(): Cannot set response code - headers already sent (output started at /home/vol11_7/infinityfree.com/if0_40212246/htdocs/includes/sidebar.php:234) in /home/vol11_7/infinityfree.com/if0_40212246/htdocs/error_handler.php:85
+Stack trace:
+#0 [internal function]: custom_error_handler(2, 'http_response_c...', '/home/vol11_7/i...', 85)
+#1 /home/vol11_7/infinityfree.com/if0_40212246/htdocs/error_handler.php(85): http_response_code(500)
+#2 [internal function]: custom_exception_handler(Object(Error))
+#3 {main}
+  thrown | File: /home/vol11_7/infinityfree.com/if0_40212246/htdocs/error_handler.php | Line: 85
+[2025-10-26 11:09:25] | Uncaught Exception: Call to undefined function truncate_text() | File: /home/vol11_7/infinityfree.com/if0_40212246/htdocs/dashboard/student/dashboard.php | Line: 201
+[2025-10-26 11:09:25] | Uncaught Exception: Uncaught ErrorException: http_response_code(): Cannot set response code - headers already sent (output started at /home/vol11_7/infinityfree.com/if0_40212246/htdocs/includes/sidebar.php:234) in /home/vol11_7/infinityfree.com/if0_40212246/htdocs/error_handler.php:85
+Stack trace:
+#0 [internal function]: custom_error_handler(2, 'http_response_c...', '/home/vol11_7/i...', 85)
+#1 /home/vol11_7/infinityfree.com/if0_40212246/htdocs/error_handler.php(85): http_response_code(500)
+#2 [internal function]: custom_exception_handler(Object(Error))
+#3 {main}
+  thrown | File: /home/vol11_7/infinityfree.com/if0_40212246/htdocs/error_handler.php | Line: 85
+[2025-10-26 11:09:27] | Uncaught Exception: Call to undefined function truncate_text() | File: /home/vol11_7/infinityfree.com/if0_40212246/htdocs/dashboard/student/dashboard.php | Line: 201
+[2025-10-26 11:09:27] | Uncaught Exception: Uncaught ErrorException: http_response_code(): Cannot set response code - headers already sent (output started at /home/vol11_7/infinityfree.com/if0_40212246/htdocs/includes/sidebar.php:234) in /home/vol11_7/infinityfree.com/if0_40212246/htdocs/error_handler.php:85
+Stack trace:
+#0 [internal function]: custom_error_handler(2, 'http_response_c...', '/home/vol11_7/i...', 85)
+#1 /home/vol11_7/infinityfree.com/if0_40212246/htdocs/error_handler.php(85): http_response_code(500)
+#2 [internal function]: custom_exception_handler(Object(Error))
+#3 {main}
+  thrown | File: /home/vol11_7/infinityfree.com/if0_40212246/htdocs/error_handler.php | Line: 85
+[2025-10-26 11:09:33] | Uncaught Exception: Call to undefined function truncate_text() | File: /home/vol11_7/infinityfree.com/if0_40212246/htdocs/dashboard/student/dashboard.php | Line: 201
+[2025-10-26 11:09:33] | Uncaught Exception: Uncaught ErrorException: http_response_code(): Cannot set response code - headers already sent (output started at /home/vol11_7/infinityfree.com/if0_40212246/htdocs/includes/sidebar.php:234) in /home/vol11_7/infinityfree.com/if0_40212246/htdocs/error_handler.php:85
+Stack trace:
+#0 [internal function]: custom_error_handler(2, 'http_response_c...', '/home/vol11_7/i...', 85)
+#1 /home/vol11_7/infinityfree.com/if0_40212246/htdocs/error_handler.php(85): http_response_code(500)
+#2 [internal function]: custom_exception_handler(Object(Error))
+#3 {main}
+  thrown | File: /home/vol11_7/infinityfree.com/if0_40212246/htdocs/error_handler.php | Line: 85
+[2025-10-26 11:09:38] | Uncaught Exception: Call to undefined function truncate_text() | File: /home/vol11_7/infinityfree.com/if0_40212246/htdocs/dashboard/student/dashboard.php | Line: 201
+[2025-10-26 11:09:38] | Uncaught Exception: Uncaught ErrorException: http_response_code(): Cannot set response code - headers already sent (output started at /home/vol11_7/infinityfree.com/if0_40212246/htdocs/includes/sidebar.php:234) in /home/vol11_7/infinityfree.com/if0_40212246/htdocs/error_handler.php:85
+Stack trace:
+#0 [internal function]: custom_error_handler(2, 'http_response_c...', '/home/vol11_7/i...', 85)
+#1 /home/vol11_7/infinityfree.com/if0_40212246/htdocs/error_handler.php(85): http_response_code(500)
+#2 [internal function]: custom_exception_handler(Object(Error))
+#3 {main}
+  thrown | File: /home/vol11_7/infinityfree.com/if0_40212246/htdocs/error_handler.php | Line: 85
+[2025-10-26 11:09:40] | Uncaught Exception: Call to undefined function truncate_text() | File: /home/vol11_7/infinityfree.com/if0_40212246/htdocs/dashboard/student/dashboard.php | Line: 201
+[2025-10-26 11:09:40] | Uncaught Exception: Uncaught ErrorException: http_response_code(): Cannot set response code - headers already sent (output started at /home/vol11_7/infinityfree.com/if0_40212246/htdocs/includes/sidebar.php:234) in /home/vol11_7/infinityfree.com/if0_40212246/htdocs/error_handler.php:85
+Stack trace:
+#0 [internal function]: custom_error_handler(2, 'http_response_c...', '/home/vol11_7/i...', 85)
+#1 /home/vol11_7/infinityfree.com/if0_40212246/htdocs/error_handler.php(85): http_response_code(500)
+#2 [internal function]: custom_exception_handler(Object(Error))
+#3 {main}
+  thrown | File: /home/vol11_7/infinityfree.com/if0_40212246/htdocs/error_handler.php | Line: 85
