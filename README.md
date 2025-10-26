@@ -2,9 +2,9 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) **Kollege LMS** is a full-stack Learning Management System built with PHP, MySQL, HTML, CSS, and JavaScript. It provides features for students, teachers, and administrators to manage courses, assignments, attendance, grades, and communication within an educational institution.
 
-**Note:** This project was developed as an academic requirement (Major Project) for the 6th semester, 3rd year BCA program at Chandigarh University by Vivek Kumar (UID: O23BCA160042).
+**Note:** This project was developed as an academic requirement (Major Project) for the 6th semester.
 
-**Live Demo (if applicable):** [https://kollege.ct.ws/](https://kollege.ct.ws/) *(Replace if not hosted)*
+**Live Demo (if applicable):** [https://kollege.ct.ws/](https://kollege.ct.ws/)
 
 ---
 
@@ -54,7 +54,10 @@
 ---
 
 ## Project Structure 📁
+
+
 / │ ├── .htaccess # Apache config ├── .env.example # Environment variables template ├── README.md # This file ├── LICENSE # MIT License file │ ├── index.php # Entry point ├── config.php # DB connection, core settings ├── functions.php # Global helpers ├── error_handler.php # Error handling setup │ ├── api/ # AJAX endpoints ├── auth/ # Login, register, etc. ├── classes/ # OOP Classes (Database, User, etc.) ├── dashboard/ # User dashboards (admin, teacher, student) ├── includes/ # Shared components (header, footer, sidebar) ├── migrations/ # SQL for DB setup ├── pages/ # Public static pages ├── public/ # Web root assets (CSS, JS, images, uploads) ├── utils/ # Utility scripts └── logs/ # Application logs (.gitignore'd)
+
 ---
 
 ## Setup & Installation 🚀
