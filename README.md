@@ -483,8 +483,8 @@ This project demonstrates:
 
 **⭐ If you find this project useful, please consider giving it a star on GitHub! ⭐**
 
-Made with ❤️ by Vivek Kumar for Chandigarh University BCA Major Project
+Made with ❤️ by Vivek Kumar for Chandigarh University
 
-**© 2024-2025 Kollege LMS. All Rights Reserved.**
+**© 2025 Kollege LMS. All Rights Reserved.**
 
 </div>Kollege LMS
